@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+group 'org.effectiveintellij'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
