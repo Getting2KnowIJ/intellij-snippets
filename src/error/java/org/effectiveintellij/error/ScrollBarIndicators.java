@@ -15,4 +15,19 @@ public class ScrollBarIndicators {
         // this is an error
         System.out.println(strings);
     }
+
+    private void exampleMethodHere() {
+        // this is code to
+        // create more than one
+        // page of code in
+        // the editor so we
+        // can see what happens
+        // to the right scroll
+        // bar when the code is
+        // not currently
+        // visible in the
+        // editor window.
+    }
 }
+
+
