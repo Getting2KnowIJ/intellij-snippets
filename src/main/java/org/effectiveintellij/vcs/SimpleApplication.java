@@ -5,7 +5,7 @@ public class SimpleApplication {
         System.out.println("Hello!");
     }
 
-    void simpleMethod() {
-        System.out.println("Just a simple method");
+    void simpleMethodToDelete() {
+        System.out.println("This method will be deleted");
     }
 }
