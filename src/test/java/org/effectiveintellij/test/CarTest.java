@@ -11,4 +11,11 @@ class CarTest {
         Car car = new Car();
         assertNotNull(car);
     }
+
+    @Test
+    void shouldDriveForwardsWithNoOtherInstructions() {
+        Car car = new Car();
+        car.drive();
+        // need to check the car moved forward
+    }
 }

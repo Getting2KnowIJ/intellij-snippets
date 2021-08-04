@@ -1,4 +1,7 @@
 package org.effectiveintellij.test;
 
-public record Car() {
+public class Car {
+    void drive() {
+
+    }
 }

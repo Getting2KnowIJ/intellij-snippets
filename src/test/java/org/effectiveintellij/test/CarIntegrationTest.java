@@ -1,5 +1,12 @@
 package org.effectiveintellij.test;
 
-class CarIntegrationTest {
+import org.junit.jupiter.api.BeforeEach;
 
+class CarIntegrationTest {
+    private Car car;
+
+    @BeforeEach
+    void setUp() {
+        car = new Car();
+    }
 }
