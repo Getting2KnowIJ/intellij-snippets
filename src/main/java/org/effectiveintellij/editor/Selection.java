@@ -1,5 +1,6 @@
 package org.effectiveintellij.editor;
 
+@SuppressWarnings("unused")
 public class Selection {
     public static void printCustomerDetails() {
         Customer customer = new Customer(6365, "customer");
