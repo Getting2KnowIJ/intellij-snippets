@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * This class contains code examples that demonstrate the features of IntelliJ IDEA
+ * that make it easier to read code. One of those features is "Rendered View" of Javadocs,
+ * which <i>formats</i> Javadocs and makes them prettier and easier to read. The font size of
+ * these rendered docs is adjustable too.
+ * <br/><br/>
+ * Press (<b>⌃⌥Q</b> | <b>Ctrl+Alt+Q</b>) to toggle between rendered and code view.
+ */
 @SuppressWarnings({"unused", "SameParameterValue"})
 public class ReadingCode {
   Customer inlayHintsShownForParameterNames(String name) {
