@@ -1,6 +1,7 @@
 package com.getting2knowij.suggest;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
@@ -10,6 +11,11 @@ import static java.util.Arrays.sort;
 @SuppressWarnings({"rawtypes", "unchecked", "unused", "MismatchedReadAndWriteOfArray"})
 public class AltEnter {
   private final String[] stringArray = new String[]{"IntelliJ IDEA", "Space", "Code With Me", "TeamCity"};
+
+  public void error() {
+    // Uncomment to see an error
+//    List<String> strings = new HashMap<Integer, String>();
+  }
 
   public void warnings() {
     //"Lambda can be replaced with method reference"
