@@ -31,4 +31,10 @@ public class Completion {
     // IntelliJ IDEA will suggest only types that implement "List"
 //    List<String> list = new
   }
+
+  public void postfixCompletion() {
+    // Uncomment the String below, and type "." after the closing quote.
+    // Press the up arrow to see a list of postfix completion options
+//    "Try Postfix"
+  }
 }
