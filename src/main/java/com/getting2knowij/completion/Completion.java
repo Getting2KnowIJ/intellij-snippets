@@ -1,5 +1,7 @@
 package com.getting2knowij.completion;
 
+import java.util.List;
+
 public class Completion {
   public void basicCompletion() {
     // put your caret between the "t" and "l" of println
@@ -8,6 +10,8 @@ public class Completion {
     //  - select a solution and press tab
     //  - select a solution and press .
     System.out.println("Message");
+    // Start typing "Sys", press . (full stop/period).
+    // Use this to build up a chain of method calls
   }
 
   // delete the curly braces and body of the method;
@@ -19,5 +23,12 @@ public class Completion {
     // press (shift+cmd+enter | ctrl+shift+enter);
     // see IntelliJ IDEA closes everything off
     System.out.println("Hello");
+  }
+
+  public void smartCompletion() {
+    // Uncomment the code  below
+    // Put your cursor at the end of the line and type (⌃⇧␣ | Ctrl+Shift+Space)
+    // IntelliJ IDEA will suggest only types that implement "List"
+//    List<String> list = new
   }
 }
