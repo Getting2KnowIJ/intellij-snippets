@@ -37,4 +37,8 @@ public class Completion {
     // Press the up arrow to see a list of postfix completion options
 //    "Try Postfix"
   }
+
+  // Uncomment this code, press (⌘⇧⏎ | Ctrl+Shift+Enter) with the cursor at the end of the line
+//  public void completeStatementMethod()
+
 }
