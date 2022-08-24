@@ -39,6 +39,10 @@ public class ReadingCode {
   private Customer findCustomer(String name, String address, Integer orderNumber, int id, boolean ascending) {
     return null;
   }
+
+  private void anotherMethodJustToBeFoldedAwayInEditorFold() {
+    // pretend there's something here
+  }
   //</editor-fold>
 
 }
