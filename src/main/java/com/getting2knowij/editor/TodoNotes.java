@@ -5,5 +5,7 @@ public class TodoNotes {
     // TODO: replace hard-coded string with i18n token
     var message = "Hello and welcome";
     System.out.println(message);
+
+    // Task: complete this method
   }
 }
