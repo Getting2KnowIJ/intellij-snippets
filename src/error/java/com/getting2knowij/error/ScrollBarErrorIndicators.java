@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SuppressWarnings("unused")
-public class ScrollBarIndicators {
+public class ScrollBarErrorIndicators {
   public static void main(String[] args) {
     // this shows up as a warning
     List<Object> objects = Arrays.asList();

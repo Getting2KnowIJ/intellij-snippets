@@ -2,12 +2,12 @@ package com.getting2knowij.suggest;
 
 import com.getting2knowij.generation.Customer;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
 import static java.lang.System.out;
-import static java.util.Arrays.sort;
 
 @SuppressWarnings({"rawtypes", "unchecked", "unused", "MismatchedReadAndWriteOfArray"})
 public class AltEnter {
@@ -20,7 +20,7 @@ public class AltEnter {
 
   public void warnings() {
     //"Lambda can be replaced with method reference"
-    sort(stringArray, (s1, s2) -> s1.compareToIgnoreCase(s2));
+    Arrays.sort(stringArray, (s1, s2) -> s1.compareToIgnoreCase(s2));
   }
 
   public void unusedCode() {
