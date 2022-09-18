@@ -1,15 +1,15 @@
-package com.getting2knowij;
+package com.getting2knowij.test;
 
 import org.junit.jupiter.api.Test;
 
 public class ExampleTest {
     @Test
-    void testOne() {
+    void shouldDoSomethingCool() {
         // example test
     }
 
     @Test
-    void testTwo() {
+    void shouldNotFallOverInAHeap() {
         // example test
     }
 }
