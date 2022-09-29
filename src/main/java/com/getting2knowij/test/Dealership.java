@@ -9,6 +9,6 @@ public class Dealership {
   }
 
   public void customerTestDrive() {
-    car.drive();
+    car.drive(0, 0);
   }
 }

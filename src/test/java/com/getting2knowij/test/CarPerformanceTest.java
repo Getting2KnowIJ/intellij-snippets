@@ -13,7 +13,7 @@ class CarPerformanceTest {
 
     @Test
     void carDrivingCompletesInSpecifiedTime() {
-        car.drive();
+        car.drive(1, 1);
         // note: this is not a real test! This is an example for find usages
     }
 }

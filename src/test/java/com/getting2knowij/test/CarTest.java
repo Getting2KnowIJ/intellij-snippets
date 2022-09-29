@@ -14,8 +14,30 @@ class CarTest {
 
     @Test
     void shouldDriveForwardsWithNoOtherInstructions() {
+        // given
         Car car = new Car();
-        car.drive();
-        // TODO: need to check the car moved forward
+        Coords oldPosition = car.getPosition();
+
+        // when
+        car.drive(1, 1);
+
+        // then
+        Coords newPosition = car.getPosition();
+        assertNotEquals(oldPosition, newPosition);
+    }
+
+    @Test
+    void shouldDriveForwardsInTheDirectionIndicated() {
+        // given
+        Car car = new Car();
+        Coords oldPosition = car.getPosition();
+
+        // when
+        car.drive(1, 2);
+
+        // then
+        Coords newPosition = car.getPosition();
+        assertEquals(oldPosition.latitude() + 1, newPosition.latitude());
+        assertEquals(oldPosition.longitude() + 2, newPosition.longitude());
     }
 }
