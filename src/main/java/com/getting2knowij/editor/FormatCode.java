@@ -1,7 +1,8 @@
 package com.getting2knowij.editor;
 
+@SuppressWarnings("unused")
 public class FormatCode {
-  void tryFormattingThisMethod() {
+    void tryFormattingThisMethod() {
     // use (⌘⌥L | Ctrl+Alt+L) to format this whole class file
       int val = 0;
     for (int i = 0; i <5; i++) {
