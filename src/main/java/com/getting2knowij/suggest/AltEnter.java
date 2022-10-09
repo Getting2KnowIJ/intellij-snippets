@@ -40,11 +40,26 @@ public class AltEnter {
     Customer cusomer = new Customer();
   }
 
+  // flip if statement
   public Optional<Agenda> getAgenda(User user) {
     if (!user.onVacation() && !user.isOffsite()) {
       return Optional.of(user.getAgenda());
     }
     return Optional.empty();
+  }
+
+  String getDescription(String name, String tagline) {
+    // See String intentions
+    return "Name: " + name + ", '" + tagline + "'";
+  }
+
+  int printCount(int value) {
+    int printCount;
+    printCount = 1;
+
+    System.out.println(value);
+    printCount++;
+    return printCount;
   }
 
 }
