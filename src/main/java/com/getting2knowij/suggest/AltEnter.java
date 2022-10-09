@@ -5,6 +5,7 @@ import com.getting2knowij.generation.Customer;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.function.Function;
 
 import static java.lang.System.out;
@@ -28,10 +29,8 @@ public class AltEnter {
   }
 
   public void workingCode() {
-    //Remove redundant types
     Function<Function, Function> f3 = (Function function) -> function.compose(function);
 
-    //Reverse for loop
     for (int i = 0; i < 10; i++) {
       out.println(i);
     }
@@ -39,6 +38,13 @@ public class AltEnter {
 
   public void fixSpelling() {
     Customer cusomer = new Customer();
+  }
+
+  public Optional<Agenda> getAgenda(User user) {
+    if (!user.onVacation() && !user.isOffsite()) {
+      return Optional.of(user.getAgenda());
+    }
+    return Optional.empty();
   }
 
 }
