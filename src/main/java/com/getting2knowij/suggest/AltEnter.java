@@ -53,13 +53,13 @@ public class AltEnter {
     return "Name: " + name + ", '" + tagline + "'";
   }
 
-  int printCount(int value) {
+  void printCount(int value) {
     int printCount;
     printCount = 1;
 
     System.out.println(value);
-    printCount++;
-    return printCount;
+    ++printCount;
+    // do more stuff
   }
 
 }
