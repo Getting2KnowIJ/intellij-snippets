@@ -10,7 +10,7 @@ import java.util.function.Function;
 
 import static java.lang.System.out;
 
-@SuppressWarnings({"rawtypes", "unchecked", "unused", "MismatchedReadAndWriteOfArray"})
+@SuppressWarnings({"rawtypes", "unchecked", "MismatchedReadAndWriteOfArray"})
 public class AltEnter {
   private final String[] stringArray = new String[]{"IntelliJ IDEA", "Space", "Code With Me", "TeamCity"};
 
