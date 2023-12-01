@@ -14,7 +14,7 @@ public class InlineExtract {
 
     // Try extracting this for loop as a method with (⌥⌘M | Ctrl+Alt+M)
     for (int i = 0; i < numberOfStrings; i++) {
-      System.out.println("On iteration: "+i);
+      System.out.println("On iteration: " + i);
       System.out.println(strings.get(i));
       System.out.println();
     }
@@ -22,7 +22,7 @@ public class InlineExtract {
     List<String> lowerCaseList = createNewListOfLowerCase(strings);
 
     for (int i = 0; i < numberOfStrings; i++) {
-      System.out.println("On iteration: "+i);
+      System.out.println("On iteration: " + i);
       System.out.println(lowerCaseList.get(i));
       System.out.println();
     }
