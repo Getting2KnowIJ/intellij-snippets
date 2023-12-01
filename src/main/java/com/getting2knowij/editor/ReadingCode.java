@@ -15,7 +15,6 @@ import java.util.stream.Stream;
 @SuppressWarnings({"unused", "SameParameterValue"})
 public class ReadingCode {
   Customer inlayHintsShownForParameterNames(String name) {
-    // shows Parameter Name Hints, if enabled
     return findCustomer(name, null, null, 0, true);
   }
 

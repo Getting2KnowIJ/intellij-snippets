@@ -10,7 +10,6 @@ class InterfaceWithManyImplementationsTest {
   void shouldDemonstrateNavigateToImplementation() {
     InterfaceWithManyImplementations exampleInterface = new Implementation2();
     exampleInterface.aMethodHere();
-    // Not a real test, it doesn't actually check anything
     assertNotNull(exampleInterface);
   }
 }
