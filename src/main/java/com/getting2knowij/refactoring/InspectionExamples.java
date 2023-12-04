@@ -7,9 +7,8 @@ public class InspectionExamples {
 
   private void canReplaceDoWithWhile() {
     int i = 0;
-    System.out.println(i++);
-    while (i < 10) {
+    do {
       System.out.println(i++);
-    }
+    } while (i < 10);
   }
 }
