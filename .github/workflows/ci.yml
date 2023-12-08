@@ -1,0 +1,25 @@
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: CI with Gradle
+
+on:
+  push:
+    branches: [ main, configuration ]
+  pull_request:
+    branches: [ main, configuration ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v2
+        with:
+          java-version: 21
+          distribution: 'temurin'
+      - name: Build Java examples with Maven
+        run: ./gradlew clean build
