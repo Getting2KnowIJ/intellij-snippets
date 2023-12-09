@@ -5,7 +5,7 @@ public class Hello {
 
   public static void main(String[] args) {
     if (args.length == 0) {
-      System.out.println("You need to give an author");
+      System.out.println("You need to provide a name");
     }
     String user = args[0];
     System.out.printf(MESSAGE, user);
