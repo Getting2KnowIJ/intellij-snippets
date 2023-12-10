@@ -11,6 +11,6 @@ public class Log {
 
   }
 
-  private interface Out {
+  interface Out {
   }
 }
