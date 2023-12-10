@@ -10,6 +10,13 @@ class LogTest {
     log.info("Test message");
   }
 
+  @Test
+  void shouldLogDebugMessages() {
+    Log log = new Log(new StubOut());
+
+    log.debug("Test message");
+  }
+
   private class StubOut implements Log.Out {
   }
 }

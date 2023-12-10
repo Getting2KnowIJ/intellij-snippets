@@ -11,6 +11,10 @@ public class Log {
 
   }
 
+  public void debug(String testMessage) {
+    // needs implementing
+  }
+
   interface Out {
   }
 }
