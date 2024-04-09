@@ -31,6 +31,7 @@ public class ReadingCode {
 
   void popupDocumentation() {
     // press (F1 | Ctrl+Q) on a class or method for quick documentation
+    // press (⌥+␣ | Alt+Space) on a class or method for quick definition
     var customers = new ArrayList<String>();
   }
 
