@@ -3,15 +3,15 @@ plugins {
 }
 
 group = "org.getting2knowij"
-version = "1.0.2"
+version = "1.0.3"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.3")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.10.3")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.11")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.11")
 }
 
 tasks.test {
