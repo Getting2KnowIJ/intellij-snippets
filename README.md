@@ -14,4 +14,4 @@ To use these samples, open the project in IntelliJ IDEA.
 
 IntelliJ IDEA will download the code and set up an IntelliJ IDEA project. We are currently using Java 22 and Gradle to build this project, but it will work with Java 8 and higher. 
 
-The code contains comments that tell you what to do to demo the features. All of these samples are shown in detail in the book [Getting to Know IntelliJ IDEA](https://www.amazon.com/Getting-Know-IntelliJ-IDEA-Professional/dp/B0CRGX26QK/).
+The code contains comments that tell you what to do to demo the features. All of these samples are shown in detail in the book [Getting to Know IntelliJ IDEA](https://bit.ly/3XrKwbX).
