@@ -14,7 +14,7 @@ public class LanguageInjection {
           "type": "Point"
         },
         "cuisine": "coffee_shop",
-        "name": "Cafelito",
+        "name": "Cafelito"
       }
       """;
 
