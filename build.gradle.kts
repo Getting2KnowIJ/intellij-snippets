@@ -20,6 +20,10 @@ java {
     }
 }
 
+tasks.withType<JavaCompile>().configureEach {
+    options.compilerArgs.add("--enable-preview")
+}
+
 tasks.test {
     useJUnitPlatform()
 }
